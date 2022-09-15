@@ -1,0 +1,7 @@
+#include<stdio.h>
+/**
+ * main - Displays message in terminal
+ *
+ * Return: 0 if succesful
+ */
+
