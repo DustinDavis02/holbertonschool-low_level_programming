@@ -1,6 +1,6 @@
 #include<stdio.h>
 /*
- * main displays message in terminal
+ * main - displays message in terminal
  *
  * return 0 if succesful
  */
