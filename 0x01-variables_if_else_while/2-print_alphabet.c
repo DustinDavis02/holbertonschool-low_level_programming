@@ -8,7 +8,8 @@
 int main(void)
 {
 
-char x = ('a' <= 'z');
+char x = (x = 'a');
+(x <= 'z');
 (++x);
 putchar (x);
 return (0);
