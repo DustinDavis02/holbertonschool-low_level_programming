@@ -8,9 +8,12 @@
 int main(void)
 {
 
-char x = (x = 'a');
+for(int x = 'a');
 (x <= 'z');
 (++x);
-putchar (x);
+{
+x = tolower(x);
+putchar(x);
+}
 return (0);
 }
