@@ -7,9 +7,9 @@
 
 int main(void)
 {
-
-for(int x = 'a'; x <= 'z'; x++)
-{
-putchar(tolower(x));
-Return (0);
+char ch = 'a'
+for (ch = 'a'; ch <= 'z'; ch++)
+putchar(ch);
+ 
+return (0);
 }
