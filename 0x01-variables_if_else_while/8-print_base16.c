@@ -13,7 +13,7 @@ char hi;
 
 for (i = 0; i < 10; i++)
 putchar((i % 10) + '0');
-for (hi = 'a'; hi < 'f'; hi++)
+for (hi = 'a'; hi < 'g'; hi++)
 putchar(hi);
 putchar('\n');
 return (0);
