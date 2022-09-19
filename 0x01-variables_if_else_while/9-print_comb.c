@@ -16,7 +16,7 @@ putchar(i + '0');
 if (i == 9)
 break;
 putchar(',');
-putcgar(' ');
+putchar(' ');
 }
 putchar('\n');
 return (0);
