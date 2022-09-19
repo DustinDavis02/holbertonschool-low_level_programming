@@ -9,12 +9,12 @@
 int main(void)
 {
 int i;
-char x;
+char hi;
 
-for (i = 0; i < 10; i++
+for (i = 0; i < 10; i++)
 putchar((i % 10) + '0');
-for (x = 'a'; x < 'f'; x++)
-putchar(x);
+for (hi = 'a'; hi < 'f'; hi++)
+putchar(hi);
 putchar('\n');
 return (0);
 }
