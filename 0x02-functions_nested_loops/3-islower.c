@@ -13,5 +13,4 @@ int q;
 q = _islower(c);
 _putchar(q + '0');
 _putchar('\n');
-return (0);
 }
