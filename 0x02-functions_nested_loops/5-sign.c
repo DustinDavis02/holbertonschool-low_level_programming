@@ -10,6 +10,9 @@
 int print_sign(int n)
 {
 	int i;
-	if (i < 0);
+	
+	for (i < 0; i++);
+	{
+		if (n == i)
 	return (0);
 }
