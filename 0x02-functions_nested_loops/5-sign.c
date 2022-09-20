@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * print_sign - Print the sign of a number.
+ * _itsalpha - Print the sign of a number.
  * @n: the variable for any sign.
  *
  *
