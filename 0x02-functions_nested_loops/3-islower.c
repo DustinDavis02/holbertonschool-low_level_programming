@@ -8,9 +8,10 @@
 
 int _islower(int c)
 {
-c = _islower('H');
-_putchar(c + '0');
-c = _islower('z');
-_putchar(c + '0');
+int q;
+
+r = _islower(c);
+_putchar(r + '0');
+_putchar('\n');
 return (0);
 }
