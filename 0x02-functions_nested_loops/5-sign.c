@@ -1,13 +1,13 @@
 #include"main.h"
 /**
- * _itsalpha - Print the sign of a number.
+ * print_sign - Print the sign of a number.
  * @n: the variable for any sign.
  *
  *
  *
  */
 
-int _isalpha(int c)
+int print_sign(int c)
 {
 int q;
 
