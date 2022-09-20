@@ -2,15 +2,18 @@
 /**
  * _islower - checks for lowercase
  *
- * Return: 0 if successful
+ * Return: 0 if lowercase return 1 if not.
  * 
  */
 
 int _islower(int c)
 {
-int q;
+int q
 
-q = _islower(c);
-_putchar(q + '0');
-_putchar('\n');
+for (q = 'a'; q <= 'z'; q++)
+{
+if (c == q)
+return (1);
+}
+return (0);
 }
