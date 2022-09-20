@@ -7,12 +7,19 @@
  *
  */
 
-int print_sign(int n)
+int _isalpha(int c)
 {
-	int i;
-	
-	for (i < 0; i++);
-	{
-		if (n == i)
-	return (0);
+int q;
+
+for (q = 'a'; q < 'z'; q++)
+{
+if (c == q)
+return (1);
+}
+for (q = 'A'; q < 'Z'; q++)
+{
+	if (c == q)
+		return (1);
+}
+return (0);
 }
