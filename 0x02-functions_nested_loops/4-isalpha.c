@@ -20,6 +20,6 @@ for (q = 'A'; q < 'Z'; q++)
 {
 	if (c == q)
 		return (1);
-return (0);
 }
+return (0);
 }
