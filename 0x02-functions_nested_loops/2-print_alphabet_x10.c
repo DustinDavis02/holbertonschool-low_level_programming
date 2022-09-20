@@ -8,11 +8,17 @@
 
 int print_alphabet_x10(void)
 {
+int i;
 int c;
-for (c = 0; c < 10; c++)
+
+i = 0;
+while (i < 10)
 {
-_putchar(abcdefghijklmnopqrstuvwxyz);
+for (c = 'a'; c <= 'z'; c++)
+{
+_putchar(c);
 }
+n++;
 _putchar('\n');
 return (0);
 }
