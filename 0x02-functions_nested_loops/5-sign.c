@@ -9,17 +9,16 @@
 
 int print_sign(int c)
 {
-int q;
-
-for (q = 'a'; q < 'z'; q++)
-{
-if (c == q)
-return (1);
-}
-for (q = 'A'; q < 'Z'; q++)
-{
-	if (c == q)
+	if (c > 0)
+	{
+		_putchar('+');
 		return (1);
-}
-return (0);
+	}
+	if (c < 0)
+	{
+		_putchar('_');
+		return (-1);
+	}
+	_putchar('0');
+	return (0);
 }
