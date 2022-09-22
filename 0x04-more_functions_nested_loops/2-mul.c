@@ -6,6 +6,7 @@
  * Return: The Result of the numbers.
  */
 
-int mul(int a, int b){
-	return (x * y);
+int mul(int a, int b)
+{
+	return (a * b);
 }
