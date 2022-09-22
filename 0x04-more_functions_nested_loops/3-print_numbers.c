@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * print_numbers - Displays 0-9
+ * print_numbers - Display numbers 0 through 9
  *
  *
  *
