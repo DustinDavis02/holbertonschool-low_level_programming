@@ -2,7 +2,7 @@
 /**
  * prime_checker - checks for prime number.
  * @n: variable to check prime
- * @i: half the result by inself then passes through i-1, then checks greather than 0
+ * @i: half results by itself then passes through i-1, checks greater than 0
  *
  * Return: prime number
  */

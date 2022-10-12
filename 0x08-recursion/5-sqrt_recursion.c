@@ -7,13 +7,13 @@
  * Return: square root of c or -1
  */
 
-int sqrt_find(int i,int c)
+int sqrt_find(int i, int c)
 {
 	if (i * i == c)
 		return (i);
 	if (i * i > c)
 		return (-1);
-	return (sqrt_find(i+1,c));
+	return (sqrt_find(i + 1, c));
 }
 
 /**
@@ -27,5 +27,5 @@ int _sqrt_recursion(int n)
 {
 	if (n == 0)
 		return (0);
-	return (sqrt_find(1,n));
+	return (sqrt_find(1 , n));
 }
