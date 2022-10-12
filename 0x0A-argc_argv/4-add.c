@@ -10,28 +10,25 @@
  * Return: If one of the numbers contains symbols that are non-digits - 1 unless 0
  */
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	int i;
-	int sum;
+	int num, digit, sum = 0;
 
-	if (argc == 1)
+	for (num = 1; num < argc; num++)
 	{
-		printf("0\n");
-		return (0);
-	}
-	i = 1;
-	sum = 0;
-	while (argv[i] != argv[argc])
-	{
-		if  (atoi(argv[i]) == '\0')
+		for (digit = 0; argv[num][digit]; digit++)
 		{
-			printf("Error\n");
-			return (1);
+			if (argv[num][digit] < '0' || argv[num][digit] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		sum += atoi(argv[i]);
-		i++;
+
+		sum += atoi(argv[num]);
 	}
+
 	printf("%d\n", sum);
+
 	return (0);
 }
