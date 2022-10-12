@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * free_grid - function that effects the 2 dimensional grid previously created by function.
+ * free_grid - function that effects the 2 dimensional grid previously created.
  *
  * @grid: array thats effected
  * @height: height of the array
