@@ -8,6 +8,7 @@
  * @size: size in bytes.
  * Return: pointer to the allocated memory.
  **/
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i, final = nmemb * size;
@@ -16,7 +17,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	if (final == 0)
 		return (NULL);
 
-	arr = malloc(nmemb * size);
+	at = malloc(nmemb * size);
 	if (at == NULL)
 		return (NULL);
 
