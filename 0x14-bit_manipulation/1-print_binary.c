@@ -24,7 +24,7 @@ void print_binary(unsigned long int n)
 
 	while (task > 0)
 	{
-		if (n & mask)
+		if (n & task)
 			_putchar('1');
 		else
 			_putchar('0');
